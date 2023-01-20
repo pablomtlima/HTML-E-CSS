@@ -1,9 +1,23 @@
-a {
-    color: black;
-    text-decoration: none;
+#intro{
+    color: blueviolet;
 }
 
-a{
+.codigo{
+    color: red;
+}
+
+.designer{
+    color: antiquewhite;
+}
+
+.azul {
+    color: blue;
+}
+
+.grande {
     font-size: 32px;
-    color: tomato;
+}
+
+.sublinhado{
+    text-decoration: underline;
 }
