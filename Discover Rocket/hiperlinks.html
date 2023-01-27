@@ -1,0 +1,76 @@
+<!--
+  Hyperlinks - Elemento Âncora: <a>
+
+  +Anatomia
+
+  + Atributos:
+    - globais (title, id ,class ...)
+    -href
+        -para onde iremos, quando clicarmos no link?
+            - url completa
+            - fragmento
+            - email
+            - telefone
+            - e outros
+    - donwload
+    - target
+      - _self (padrão)
+      - _blank
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hyperlinks</title>
+  </head>
+  <body>
+    <!--  href pra onde iremos quando clicarmos no link -->
+
+    <a href="#">Conteúdo</a>
+
+    <!-- Faz o download do conteudo do link -->
+    <a href="#" download="">Imagem</a>
+
+    <!-- Target indica onde será aberta o conteudo do link:
+      se for '_self' que é o padrão o link é aberto na mesma página.
+      se for '_blank' abre o link em uma nova guia.   -->
+
+    <a href="http://google.com.br" target="_blank">Imagem</a>
+
+    <p>Encontre-me:</p>
+    <ul>
+      <li><a href="https://rocketseat.com.br">Website</a></li>
+      <li><a href="mailto:pablomtlima1@gmail.com">Email</a></li>
+      <li><a href="tel:+5561998246789">Telefone</a></li>
+    </ul>
+    <p>Saiba mais</p>
+    <ul>
+      <li><a href="#about">Sobre mim</a></li>
+      <li><a href="#history">História</a></li>
+      <li><a href="#works">Trabalhos</a></li>
+    </ul>
+
+    <!-- Conteúdo dos hipertexto  -->
+    <a href="http://google.com.br" title="Ir para o Google">
+      <h1>Google</h1>
+      <p>Claro que pode</p>
+      <!-- <img src="http://source.unsplash.com/random" alt=""> -->
+    </a>
+
+
+
+    <h1 id="about">Sobre mim</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit dolores tempora autem unde magni, sapiente facilis iure nulla enim minus eligendi dolorum voluptatem repellat quas sint rem consequuntur illo.
+
+    <h2 id="history">História</h2>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam voluptatem cum tempore doloremque facere maiores doloribus at voluptatibus nobis, optio maxime molestiae quo! Ipsum laudantium ab quam magnam officia vel.
+
+    <h2 id="works">Trabalhos</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet a, illum maxime magnam commodi quia iste eos quibusdam minima? Asperiores error ad officiis velit consequatur dolore numquam maiores, hic quasi.
+
+
+
+  </body>
+</html>
